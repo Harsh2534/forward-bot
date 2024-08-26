@@ -9,7 +9,7 @@ class Config:
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5601277336').split()]
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
 
-    PICS = (environ.get('PICS', ''))
+    PICS = (environ.get('PICS', 'https://graph.org/file/0493dbab95964364e4264.jpg'))
     
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://raja:raja@cluster0.uwezr4a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
