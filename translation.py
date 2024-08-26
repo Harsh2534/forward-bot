@@ -41,17 +41,12 @@ class Translation(object):
 ► __if the **From Channel** is private your userbot must be member in there or your bot must need admin permission in there also__
 ► __Then use /forward to forward messages__</b>"""
   
-  ABOUT_TXT = """<b>
-╭───────────⍟
-├◈ ᴍy ɴᴀᴍᴇ : <a href=https://t.me/Jisshu_forward_bot>Auto Forward Bot</a>
-├◈ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/MR_JISSHU>Mr.Jisshu</a> 
-├◈ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ: <a href=https://t.me/JISSHU_BOTS>JISSHU BOTS </a>   
-├◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
-├◈ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org/>Pʏᴛʜᴏɴ 𝟹</a>
-├◈ Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com/>Mᴏɴɢᴏ DB</a>
-├◈ Bot Vᴇʀꜱɪᴏɴ: <a href=https://github.com/Jisshubot/Jisshu-forward-bot>V-2.4.1
-├◈ Bᴏᴛ Sᴏᴜʀᴄᴇ: <a href=https://github.com/Jisshubot/Jisshu-forward-bot>My Repo</a>
-╰───────────────⍟</b>"""
+  ABOUT_TXT = """<b>🤖 My Name :</b> {}
+<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
+<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
+<b>📢 Channel :</b> <a href='https://t.me/MoviesUpdate_07'>Movies Update</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/Anonymousdeveloper098'>Harshit Bhai</a>
   
   STATUS_TXT = """<b><u>Bot Status</u>
 
