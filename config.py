@@ -9,13 +9,13 @@ class Config:
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5601277336').split()]
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
 
-    PICS = (environ.get('PICS', 'https://graph.org/file/e223aea8aca83e99162bb.jpg'))
+    PICS = (environ.get('PICS', 'https://graph.org/file/0493dbab95964364e4264.jpg'))
     
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://raja:raja@cluster0.uwezr4a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
-    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "") # FORCE SUB channel link 
+    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002175614080'))
+    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "MoviesUpdate_07") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")  # FORCE SUB ON - OFF
 
 
