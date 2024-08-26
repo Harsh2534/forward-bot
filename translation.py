@@ -4,13 +4,11 @@ from config import Config
 class Translation(object):
   START_TXT = """<b>Hᴇʏ {},{}</b>
 
-➻ 𝐈 𝐀𝐌 𝐀𝐍 𝐀𝐃𝐕𝐀𝐍𝐂𝐄𝐃 𝐀𝐔𝐓𝐎 𝐅𝐎𝐑𝐖𝐀𝐑𝐃 𝐁𝐎𝐓
-  
-➻ 𝐈 𝐂𝐀𝐍 𝐅𝐎𝐑𝐖𝐀𝐑𝐃 𝐀𝐋𝐋 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐅𝐑𝐎𝐌 𝐎𝐍𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐓𝐎 𝐀𝐍𝐎𝐓𝐇𝐄𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 
-  
-➻ 𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐋𝐏 𝐁𝐔𝐓𝐓𝐎𝐍 𝐓𝐎 𝐊𝐍𝐎𝐖 𝐌𝐎𝐑𝐄 𝐀𝐁𝐎𝐔𝐓 𝐌𝐄
-  
-<b>𝐁𝐎𝐓 𝐈𝐒 𝐌𝐀𝐃𝐄 𝐁𝐘 @MoviesUpdate_07</b>""
+◈ I Aᴍ A Aᴅᴠᴀɴᴄᴇᴅ Aᴜᴛᴏ Fᴏʀᴡᴀʀᴅ Bᴏᴛ.
+◈ I Cᴀɴ Fᴏʀᴡᴀʀᴅ Aʟʟ Mᴇꜱꜱᴀɢᴇ Fʀᴏᴍ Oɴᴇ Cʜᴀɴɴᴇʟ Tᴏ Aɴᴏᴛʜᴇʀ Cʜᴀɴɴᴇʟ.
+◈ Cʟɪᴄᴋ Hᴇʟᴘ Bᴜᴛᴛᴏɴ Tᴏ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Mᴇ.
+
+<blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href='https://t.me/MoviesUpdate_07'>Movies Update </a></blockquote></b>"""
 
 
   HELP_TXT = """<b><u>🛠️ HELP</b></u>
@@ -47,6 +45,8 @@ class Translation(object):
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>📢 Channel :</b> <a href='https://t.me/MoviesUpdate_07'>Movies Update</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/Anonymousdeveloper098'>Harshit Bhai</a>
+
+<b>♻️ Bot Made By :</b> @MoviesUpdate_07"""
   
   STATUS_TXT = """<b><u>Bot Status</u>
 
