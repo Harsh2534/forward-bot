@@ -219,7 +219,7 @@ async def settings_query(bot, query):
      buttons.append([InlineKeyboardButton('↩ Back', 
                       callback_data="settings#main")])
      await query.message.edit_text(
-        "<b><u>🔘CUSTOM BUTTON</b></u>\n\n<b>You can add inline buttons to messages with the following format:</b>\n\n<b>Single Button in a row:</b>\n\n`[Forward bot][buttonurl:https://t.me/Jisshu_forward_bot]`\n\n<b>More than one button in same row:</b>\n\n`[forward bot][buttonurl:https://t.me/Jisshu_forward_bot]\n[forward bot][buttonurl:https://t.me/Jisshu_forward_bot(:same)]`",
+        "<b><u>🔘CUSTOM BUTTON</b></u>\n\n<b>You can add inline buttons to messages with the following format:</b>\n\n<b>Single Button in a row:</b>\n\n`[Forward bot][buttonurl:https://t.me/MoviesUpdate_07]`\n\n<b>More than one button in same row:</b>\n\n`[forward bot][buttonurl:https://t.me/MoviesUpdate_07]\n[forward bot][buttonurl:https://t.me/MoviesUpdate_07(:same)]`",
         reply_markup=InlineKeyboardMarkup(buttons))
   
   elif type=="addbutton":
